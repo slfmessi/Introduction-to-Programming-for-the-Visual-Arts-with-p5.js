@@ -215,7 +215,7 @@ Player.prototype.enLarge = function (size) {
   this.size += floor(size / 10);
   this.label = this.size.toString();
   
-  if (this.size > 30) {
+  if (this.size > 400) {
     gameState = WIN;
   }  
 }
